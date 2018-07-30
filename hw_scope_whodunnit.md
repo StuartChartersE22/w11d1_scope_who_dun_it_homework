@@ -247,6 +247,10 @@ const declareMurderer = function() {
 const verdict = declareMurderer();
 console.log(verdict);
 ```
+Guess: The murderer is Prof. Plum as the if declares as a let in the block so it can't be seen above.
+
+Answer: 'The murderer is Professor Plum.'
+Correct
 
 ### Extensions
 

@@ -1,34 +1,12 @@
-const scenario = {
-  murderer: 'Mrs. Peacock',
-  room: 'Conservatory',
-  weapon: 'Lead Pipe'
-};
+let murderer = 'Professor Plum';
 
-const changeScenario = function() {
-  scenario.murderer = 'Mrs. Peacock';
-  scenario.room = 'Dining Room';
-
-  const plotTwist = function(room) {
-    if (scenario.room === room) {
-      scenario.murderer = 'Colonel Mustard';
-    }
-
-    const unexpectedOutcome = function(murderer) {
-      if (scenario.murderer === murderer) {
-        scenario.weapon = 'Candle Stick';
-      }
-    }
-
-    unexpectedOutcome('Colonel Mustard');
-  }
-
-  plotTwist('Dining Room');
+if (murderer === 'Professor Plum') {
+  let murderer = 'Mrs. Peacock';
 }
 
-const declareWeapon = function() {
-  return `The weapon is ${scenario.weapon}.`
+const declareMurderer = function() {
+  return `The murderer is ${murderer}.`;
 }
 
-changeScenario();
-const verdict = declareWeapon();
+const verdict = declareMurderer();
 console.log(verdict);
