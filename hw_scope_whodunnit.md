@@ -226,6 +226,10 @@ changeScenario();
 const verdict = declareWeapon();
 console.log(verdict);
 ```
+Guess: the weapon will be candle stick as the room can be changed to dining room as in 5, then it is equal to dining room when plotTwist is called so the murderer is changed to Col. Mustard, then the murderer is equal to Col. Mustard when unexpectedOutcome is called so the weapon is changed to candle stick.
+
+Answer: 'The weapon is Candle Stick.'
+Correct
 
 #### Episode 9
 
