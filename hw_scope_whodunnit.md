@@ -30,7 +30,8 @@ console.log(verdict);
 
 guess: will return Miss Scarlet as they are all on the same level so the scenario can be seen within the declare Murderer function
 
-Answer: Correct
+Answer: 'The murderer is Miss Scarlet.'
+Correct
 
 #### Episode 2
 
@@ -52,7 +53,8 @@ console.log(verdict);
 
 Guess: Error as the murderer has been declared a constant so can't be changed by changeMurderer.
 
-Answer: 'TypeError: Assignment to constant variable.' correct
+Answer: 'TypeError: Assignment to constant variable.'
+Correct
 
 #### Episode 3
 
@@ -70,6 +72,11 @@ console.log('First Verdict: ', firstVerdict);
 const secondVerdict = `The murderer is ${murderer}.`;
 console.log('Second Verdict: ', secondVerdict);
 ```
+Guess: first verdict Mrs. Peacock, second Prof. Plum as the murderer is a let so can be changed. The change is then made as a let so can't be seen above the block.
+
+Answer: 'First Verdict:  The murderer is Mrs. Peacock.
+Second Verdict:  The murderer is Professor Plum.'
+Correct
 
 #### Episode 4
 
