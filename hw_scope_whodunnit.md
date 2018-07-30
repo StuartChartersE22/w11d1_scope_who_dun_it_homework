@@ -94,6 +94,11 @@ const suspects = declareAllSuspects();
 console.log(suspects);
 console.log(`Suspect three is ${suspectThree}.`);
 ```
+Guess: suspects will return: Miss Scarlet, Prof. Plum, Col. Mustard; but suspect three in the log will be Mrs. Peacock as the reassign is a let inside the function
+
+Answer: 'The suspects are Miss Scarlet, Professor Plum, Colonel Mustard.
+Suspect three is Mrs. Peacock.'
+Correct
 
 #### Episode 5
 
