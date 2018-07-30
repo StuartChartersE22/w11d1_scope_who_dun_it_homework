@@ -183,6 +183,10 @@ changeMurderer();
 const verdict = declareMurderer();
 console.log(verdict);
 ```
+Guess: The declare will be Miss. Scarlet as the plotTwist defines the murderer as a let so can't be passed up from the function but the unexpectedOutcome simply redefines so can be accessed as the initial define was at the top level.
+
+Answer: 'The murderer is Mr. Green.'
+Incorrect: The unexpectedOutcome is within the plotTwist so changes the murderer defined within there but the same reason before stands so the change can't be seen above so only the first change is seen.
 
 #### Episode 8
 
