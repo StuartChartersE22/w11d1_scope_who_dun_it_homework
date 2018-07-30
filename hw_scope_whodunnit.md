@@ -28,6 +28,10 @@ const verdict = declareMurderer();
 console.log(verdict);
 ```
 
+guess: will return Miss Scarlet as they are all on the same level so the scenario can be seen within the declare Murderer function
+
+Answer: Correct
+
 #### Episode 2
 
 ```js
@@ -45,6 +49,10 @@ changeMurderer();
 const verdict = declareMurderer();
 console.log(verdict);
 ```
+
+Guess: Error as the murderer has been declared a constant so can't be changed by changeMurderer.
+
+Answer: 'TypeError: Assignment to constant variable.' correct
 
 #### Episode 3
 
