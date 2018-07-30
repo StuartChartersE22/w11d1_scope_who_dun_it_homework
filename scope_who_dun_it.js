@@ -1,12 +1,19 @@
-let suspectOne = 'Miss Scarlet';
-let suspectTwo = 'Professor Plum';
-let suspectThree = 'Mrs. Peacock';
+let murderer = 'Colonel Mustard';
 
-const declareAllSuspects = function() {
-  let suspectThree = 'Colonel Mustard';
-  return `The suspects are ${suspectOne}, ${suspectTwo}, ${suspectThree}.`;
+const changeMurderer = function() {
+  murderer = 'Mr. Green';
+
+  const plotTwist = function() {
+    murderer = 'Mrs. White';
+  }
+
+  plotTwist();
 }
 
-const suspects = declareAllSuspects();
-console.log(suspects);
-console.log(`Suspect three is ${suspectThree}.`);
+const declareMurderer = function () {
+  return `The murderer is ${murderer}.`;
+}
+
+changeMurderer();
+const verdict = declareMurderer();
+console.log(verdict);

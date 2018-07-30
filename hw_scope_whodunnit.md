@@ -121,6 +121,10 @@ changeWeapon('Revolver');
 const verdict = declareWeapon();
 console.log(verdict);
 ```
+Guess: The weapon will be revolver as the scenario is a constant but isn't being reassigned, rather an attribute of the constant is being changed
+
+Answer: 'The weapon is the Revolver.'
+Correct
 
 #### Episode 6
 
@@ -145,6 +149,10 @@ changeMurderer();
 const verdict = declareMurderer();
 console.log(verdict);
 ```
+Guess: The declare will be Mrs. White as the let can travel down through the functions.
+
+Answer: 'The murderer is Mrs. White.'
+Correct
 
 #### Episode 7
 
